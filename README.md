@@ -1,8 +1,3 @@
 # 490CodingProject
 
-Hey guys
-
-
-blah
-blah blah
-bleh
+# Names : Shauny Jackson
