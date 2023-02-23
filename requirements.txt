@@ -1,0 +1,17 @@
+matplotlib
+numpy
+geopandas
+pandas
+jupyter
+shapely
+jupyterlab
+osmnx
+networkx
+rioxarray
+scikit-learn
+selenium
+bs4
+descartes
+momepy
+folium
+ee
