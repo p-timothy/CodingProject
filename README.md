@@ -52,9 +52,28 @@ descartes
 momepy
 folium
 	- packages from class end
+    
+rasterio
+matplotlib
+fiona (shape file reader)
+Pysal
+Teammaps
+RSGISLib
+tmap
 
 Planned methods/approach
-- guess and check
+1. Use landsat to identify where beach and dune erosion/deposition is taking place (primarily Tim)
+2. Identify potential causes and create correlation matrices
+    - Storm events or significant wind instances (Shauny)
+    - Water currents (Shauny)
+    - Other (Shauny)
+    - Water levels (Tim)
+    - Fires (Tim)
+    - Precipitation (Harris)
+    - Ice build/coverage (Harris)
+    - Human Coastal Development (Harris)
+3. Identify potential clustering
+4. Potential regression model
 
 Expected outcomes
 - the beaches have changed (grown)
@@ -67,4 +86,4 @@ Any other relevant information, images/tables, references, etc.
 References
 
 
-HELLO WORLD
+
