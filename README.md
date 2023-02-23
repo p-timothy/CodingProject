@@ -4,7 +4,7 @@ Project Title: South-East Lake Michigan Beach Erosion and Deposition
 
 Name(s) of individual or team members
 Team leader: P. Timothy Young Schragel
-Not team leader 1:
+Not team leader 1: Shauny Jackson
 Not team leader 2: Dalton Harris
 
 Short 1-2 sentence summary
