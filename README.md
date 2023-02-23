@@ -3,7 +3,7 @@
 Project Title: South-East Lake Michigan Beach Erosion and Deposition
 
 Name(s) of individual or team members
-Team leader: 
+Team leader: P. Timothy Young Schragel
 Not team leader 1:
 Not team leader 2: Dalton Harris
 
@@ -28,7 +28,7 @@ Problem statement, question(s) and/or objective(s):
 		- perhaps along jetties or national parks
 
 Datasets you will use (with links, if available)
-- landsat:
+- landsat (5 & 8):
 - water levels: 
 
 Python packages that team members require
