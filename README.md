@@ -31,6 +31,14 @@ Datasets you will use (with links, if available)
 - landsat (5 & 8):
 - water levels: 
 - High/Thunderstorm Winds: https://www.ncdc.noaa.gov/stormevents/choosedates.jsp?statefips=91%2CLAKE+MICHIGAN
+- Precipitation 
+	- https://www.weather.gov/wrh/Climate?wfo=iwx
+		- This has a data table with monthly and annual sums of precipitation. However, I am unsure if its possible to download the data table.
+		  The site says I need to go to NCEI (National Centers for Environmental Information) (link: https://www.ncei.noaa.gov/), but I am unsure how to find a narrowed data set.
+- Ice
+	- cool ice coverage with shape files (https://www.glerl.noaa.gov/data/ice/glicd.php?year=1985)
+		- additionally there is a pdf and txt files with annual max coverage (https://www.glerl.noaa.gov/data/ice/#historical)
+		- there is also daily averages, and we can get a range of time (in days) that there was ice coverage for each year (or 5 years) (https://www.glerl.noaa.gov/data/ice/glicd/daily/mic.txt)
 
 Python packages that team members require
 - would we want the python version of GeoDa?
@@ -85,6 +93,8 @@ Expected outcomes
 Any other relevant information, images/tables, references, etc.
 
 References
+- NOAA - GLERL (Great Lakes Environmental Research Laboratory)
+- NCEI (National Centers for Environmental Information)
 
 
 
