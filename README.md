@@ -28,8 +28,8 @@ Problem statement, question(s) and/or objective(s):
 		- perhaps along jetties or national parks
 
 Datasets you will use (with links, if available)
-- landsat (5 & 8):
-- water levels: 
+- landsat (5 & 8): https://earthexplorer.usgs.gov/
+- water levels: https://www.lre.usace.army.mil/Missions/Great-Lakes-Information/Great-Lakes-Information-2/Water-Level-Data/
 - High/Thunderstorm Winds: https://www.ncdc.noaa.gov/stormevents/choosedates.jsp?statefips=91%2CLAKE+MICHIGAN
 - Precipitation 
 	- https://www.weather.gov/wrh/Climate?wfo=iwx
@@ -43,32 +43,23 @@ Datasets you will use (with links, if available)
 Python packages that team members require
 - would we want the python version of GeoDa?
 - should go through the core ones we have used within this class first
-	- core Python packages from class
-matplotlib
-numpy
-geopandas
-pandas
-jupyter
-shapely
-jupyterlab
+	- core Python packages from class ( - ? means maybe )
 osmnx
-networkx
-rioxarray
-scikit-learn
-selenium
-bs4
-descartes
-momepy
-folium
-	- packages from class end
-    
+pandas
+geopandas
+numpy
 rasterio
 matplotlib
-fiona (shape file reader)
-Pysal
-Teammaps
+jupyterlab
+
+scikit-learn - ?
+	- packages from class end ( - ? means maybe )
 RSGISLib
-tmap
+
+fiona - ?
+Pysal - ?
+Teammaps - ?
+tmap - ?
 
 Planned methods/approach
 1. Use landsat to identify where beach and dune erosion/deposition is taking place (primarily Tim)
@@ -85,9 +76,10 @@ Planned methods/approach
 4. Potential regression model
 
 Expected outcomes
-- the beaches have changed (grown)
-- these are potential causes
-	- use correlation to compare the different causes
+- Growth in beaches and dunes
+- Factor in or out potential causes
+	- Rule out lake high
+	- See if other variables effect beach size
 - where are clusters of change
 
 Any other relevant information, images/tables, references, etc.
