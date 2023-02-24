@@ -30,6 +30,7 @@ Problem statement, question(s) and/or objective(s):
 Datasets you will use (with links, if available)
 - landsat (5 & 8):
 - water levels: 
+- High/Thunderstorm Winds: https://www.ncdc.noaa.gov/stormevents/choosedates.jsp?statefips=91%2CLAKE+MICHIGAN
 
 Python packages that team members require
 - would we want the python version of GeoDa?
@@ -66,7 +67,7 @@ Planned methods/approach
 2. Identify potential causes and create correlation matrices
     - Storm events or significant wind instances (Shauny)
     - Water currents (Shauny)
-    - Other (Shauny)
+    - Wave data (Shauny)
     - Water levels (Tim)
     - Fires (Tim)
     - Precipitation (Harris)
