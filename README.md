@@ -87,6 +87,3 @@ Any other relevant information, images/tables, references, etc.
 References
 - NOAA - GLERL (Great Lakes Environmental Research Laboratory)
 - NCEI (National Centers for Environmental Information)
-
-
-
