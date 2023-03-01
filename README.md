@@ -28,43 +28,62 @@ Problem statement, question(s) and/or objective(s):
 		- perhaps along jetties or national parks
 
 Datasets you will use (with links, if available)
-- landsat (5 & 8):
-- water levels: 
+- landsat (5 & 8): https://earthexplorer.usgs.gov/
+- water levels: https://www.lre.usace.army.mil/Missions/Great-Lakes-Information/Great-Lakes-Information-2/Water-Level-Data/
+- High/Thunderstorm Winds: https://www.ncdc.noaa.gov/stormevents/choosedates.jsp?statefips=91%2CLAKE+MICHIGAN
+- Precipitation 
+	- https://www.weather.gov/wrh/Climate?wfo=iwx
+		- This has a data table with monthly and annual sums of precipitation. However, I am unsure if its possible to download the data table.
+		  The site says I need to go to NCEI (National Centers for Environmental Information) (link: https://www.ncei.noaa.gov/), but I am unsure how to find a narrowed data set.
+- Ice
+	- cool ice coverage with shape files (https://www.glerl.noaa.gov/data/ice/glicd.php?year=1985)
+		- additionally there is a pdf and txt files with annual max coverage (https://www.glerl.noaa.gov/data/ice/#historical)
+		- there is also daily averages, and we can get a range of time (in days) that there was ice coverage for each year (or 5 years) (https://www.glerl.noaa.gov/data/ice/glicd/daily/mic.txt)
 
 Python packages that team members require
 - would we want the python version of GeoDa?
 - should go through the core ones we have used within this class first
-	- core Python packages from class
-matplotlib
-numpy
-geopandas
-pandas
-jupyter
-shapely
-jupyterlab
+	- core Python packages from class ( - ? means maybe )
 osmnx
-networkx
-rioxarray
-scikit-learn
-selenium
-bs4
-descartes
-momepy
-folium
-	- packages from class end
+pandas
+geopandas
+numpy
+rasterio
+matplotlib
+jupyterlab
+
+scikit-learn - ?
+	- packages from class end ( - ? means maybe )
+RSGISLib
+
+fiona - ?
+Pysal - ?
+Teammaps - ?
+tmap - ?
 
 Planned methods/approach
-- guess and check
+1. Use landsat to identify where beach and dune erosion/deposition is taking place (primarily Tim)
+2. Identify potential causes and create correlation matrices
+    - Storm events or significant wind instances (Shauny)
+    - Water currents (Shauny)
+    - Wave data (Shauny)
+    - Water levels (Tim)
+    - Fires (Tim)
+    - Precipitation (Harris)
+    - Ice build/coverage (Harris)
+    - Human Coastal Development (Harris)
+3. Identify potential clustering
+4. Potential regression model
 
 Expected outcomes
-- the beaches have changed (grown)
-- these are potential causes
-	- use correlation to compare the different causes
+- Growth in beaches and dunes
+- Factor in or out potential causes
+	- Rule out lake high
+	- See if other variables effect beach size
 - where are clusters of change
 
 Any other relevant information, images/tables, references, etc.
 
 References
-
-
-HELLO WORLD
+- NOAA - GLERL (Great Lakes Environmental Research Laboratory)
+- NCEI (National Centers for Environmental Information)
